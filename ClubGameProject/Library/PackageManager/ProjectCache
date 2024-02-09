@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638420172620000000
     m_Hash: 558938034
+=======
+      ticks: 638412159709927150
+    m_Hash: 2495670234
+>>>>>>> Team2
   m_LockFileStatus:
     m_FilePath: /Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638420172620000000
     m_Hash: 899898893
+=======
+      ticks: 638412159710140511
+    m_Hash: 2913879210
+>>>>>>> Team2
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
