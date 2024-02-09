@@ -15,15 +15,9 @@ C:/Users/ethan/Desktop/CLUBPROJECT/ClubGame/ClubGameProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-<<<<<<< HEAD
 60557
 Successfully changed project path to: C:/Users/ethan/Desktop/CLUBPROJECT/ClubGame/ClubGameProject
 C:/Users/ethan/Desktop/CLUBPROJECT/ClubGame/ClubGameProject
-=======
-51513
-Successfully changed project path to: C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
-C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
->>>>>>> Team2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -55,19 +49,11 @@ C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-<<<<<<< HEAD
 Player connection [32332] Host "[IP] 192.168.1.188 [Port] 0 [Flags] 2 [Guid] 2213918181 [EditorId] 2213918181 [Version] 1048832 [Id] WindowsEditor(7,Sen) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [32332] Host "[IP] 192.168.1.188 [Port] 0 [Flags] 2 [Guid] 2213918181 [EditorId] 2213918181 [Version] 1048832 [Id] WindowsEditor(7,Sen) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
-=======
-Player connection [6712] Host "[IP] 192.168.68.63 [Port] 0 [Flags] 2 [Guid] 868501359 [EditorId] 868501359 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHGTC4I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-
-Player connection [6712] Host "[IP] 192.168.68.63 [Port] 0 [Flags] 2 [Guid] 868501359 [EditorId] 868501359 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHGTC4I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-Refreshing native plugins compatible for Editor in 15.54 ms, found 3 plugins.
->>>>>>> Team2
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.2f1 (d74737c6db50)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -80,7 +66,6 @@ Direct3D:
     VRAM:     8032 MB
     Driver:   31.0.15.4665
 Initialize mono
-<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
@@ -95,27 +80,10 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.154 seconds
 Domain Reload Profiling: 350ms
 	BeginReloadAssembly (57ms)
-=======
-Mono path[0] = 'E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007482 seconds.
-- Loaded All Assemblies, in  0.410 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.293 seconds
-Domain Reload Profiling: 703ms
-	BeginReloadAssembly (132ms)
->>>>>>> Team2
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (18ms)
 	RebuildNativeTypeToScriptingClass (6ms)
@@ -139,31 +107,6 @@ Domain Reload Profiling: 703ms
 			BeforeProcessingInitializeOnLoad (1ms)
 			ProcessInitializeOnLoadAttributes (83ms)
 			ProcessInitializeOnLoadMethodAttributes (28ms)
-=======
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (162ms)
-		LoadAssemblies (132ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (142ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (294ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (230ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (151ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
->>>>>>> Team2
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -171,37 +114,23 @@ Domain Reload Profiling: 703ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-<<<<<<< HEAD
 Symbol file LoadedFromMemory doesn't match image C:\Users\ethan\Desktop\CLUBPROJECT\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ethan\Desktop\CLUBPROJECT\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  0.585 seconds
 Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
-=======
-Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.891 seconds
-Refreshing native plugins compatible for Editor in 6.50 ms, found 3 plugins.
->>>>>>> Team2
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-<<<<<<< HEAD
 - Finished resetting the current domain, in  0.482 seconds
 Domain Reload Profiling: 1064ms
 	BeginReloadAssembly (104ms)
-=======
-- Finished resetting the current domain, in  0.676 seconds
-Domain Reload Profiling: 1564ms
-	BeginReloadAssembly (177ms)
->>>>>>> Team2
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
 		CreateAndSetChildDomain (20ms)
 	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
@@ -236,42 +165,6 @@ Unloading 3616 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 51 unused Assets / (130.4 KB). Loaded Objects now: 4094.
 Memory consumption went from 136.8 MB to 136.6 MB.
 Total: 4.535200 ms (FindLiveObjects: 0.565500 ms CreateObjectMapping: 0.242000 ms MarkObjects: 3.524700 ms  DeleteObjects: 0.202300 ms)
-=======
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (611ms)
-		LoadAssemblies (350ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (358ms)
-			TypeCache.Refresh (329ms)
-				TypeCache.ScanAssembly (316ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (677ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (499ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (387ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 6.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (57.4 KB). Loaded Objects now: 3931.
-Memory consumption went from 132.6 MB to 132.5 MB.
-Total: 3.335900 ms (FindLiveObjects: 0.258900 ms CreateObjectMapping: 0.207200 ms MarkObjects: 2.766500 ms  DeleteObjects: 0.102000 ms)
->>>>>>> Team2
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -287,7 +180,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-<<<<<<< HEAD
   Time since last request: 123172.951150 seconds.
   path: Packages/com.unity.cinemachine/Runtime/Helpers/CinemachineTouchInputMapper.cs
   artifactKey: Guid(2adf148a19499274795e418631d7db45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -2892,11 +2784,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-=======
-  Time since last request: 1453.442838 seconds.
-  path: Assets/PlayerMovement.cs
-  artifactKey: Guid(682564ef044817741a89cfba4775ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerMovement.cs using Guid(682564ef044817741a89cfba4775ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099edf6739250f9cdd2f057780751ca6') in 0.003349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
->>>>>>> Team2

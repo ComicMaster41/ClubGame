@@ -15,15 +15,9 @@ C:/Users/ethan/Desktop/CLUBPROJECT/ClubGame/ClubGameProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< HEAD
 60557
 Successfully changed project path to: C:/Users/ethan/Desktop/CLUBPROJECT/ClubGame/ClubGameProject
 C:/Users/ethan/Desktop/CLUBPROJECT/ClubGame/ClubGameProject
-=======
-51513
-Successfully changed project path to: C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
-C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
->>>>>>> Team2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -55,19 +49,11 @@ C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-<<<<<<< HEAD
 Player connection [35408] Host "[IP] 192.168.1.188 [Port] 0 [Flags] 2 [Guid] 3565477770 [EditorId] 3565477770 [Version] 1048832 [Id] WindowsEditor(7,Sen) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [35408] Host "[IP] 192.168.1.188 [Port] 0 [Flags] 2 [Guid] 3565477770 [EditorId] 3565477770 [Version] 1048832 [Id] WindowsEditor(7,Sen) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 6.17 ms, found 3 plugins.
-=======
-Player connection [22452] Host "[IP] 192.168.68.63 [Port] 0 [Flags] 2 [Guid] 3779309312 [EditorId] 3779309312 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHGTC4I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-
-Player connection [22452] Host "[IP] 192.168.68.63 [Port] 0 [Flags] 2 [Guid] 3779309312 [EditorId] 3779309312 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHGTC4I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-Refreshing native plugins compatible for Editor in 14.99 ms, found 3 plugins.
->>>>>>> Team2
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.2f1 (d74737c6db50)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -80,7 +66,6 @@ Direct3D:
     VRAM:     8032 MB
     Driver:   31.0.15.4665
 Initialize mono
-<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
@@ -95,27 +80,10 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.153 seconds
 Domain Reload Profiling: 350ms
 	BeginReloadAssembly (57ms)
-=======
-Mono path[0] = 'E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007080 seconds.
-- Loaded All Assemblies, in  0.405 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.297 seconds
-Domain Reload Profiling: 701ms
-	BeginReloadAssembly (132ms)
->>>>>>> Team2
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (18ms)
 	RebuildNativeTypeToScriptingClass (6ms)
@@ -139,31 +107,6 @@ Domain Reload Profiling: 701ms
 			BeforeProcessingInitializeOnLoad (1ms)
 			ProcessInitializeOnLoadAttributes (84ms)
 			ProcessInitializeOnLoadMethodAttributes (28ms)
-=======
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (131ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (136ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (297ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (230ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (149ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
->>>>>>> Team2
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -171,37 +114,23 @@ Domain Reload Profiling: 701ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-<<<<<<< HEAD
 Symbol file LoadedFromMemory doesn't match image C:\Users\ethan\Desktop\CLUBPROJECT\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ethan\Desktop\CLUBPROJECT\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  0.589 seconds
 Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
-=======
-Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.889 seconds
-Refreshing native plugins compatible for Editor in 6.71 ms, found 3 plugins.
->>>>>>> Team2
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-<<<<<<< HEAD
 - Finished resetting the current domain, in  0.477 seconds
 Domain Reload Profiling: 1063ms
 	BeginReloadAssembly (106ms)
-=======
-- Finished resetting the current domain, in  0.678 seconds
-Domain Reload Profiling: 1565ms
-	BeginReloadAssembly (175ms)
->>>>>>> Team2
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
 		CreateAndSetChildDomain (21ms)
 	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (8ms)
@@ -2009,43 +1938,6 @@ Memory consumption went from 135.8 MB to 135.7 MB.
 Total: 2.585400 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.089800 ms MarkObjects: 2.160100 ms  DeleteObjects: 0.056900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-=======
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (610ms)
-		LoadAssemblies (350ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (356ms)
-			TypeCache.Refresh (328ms)
-				TypeCache.ScanAssembly (313ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (679ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (500ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (387ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 6.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (57.4 KB). Loaded Objects now: 3931.
-Memory consumption went from 132.6 MB to 132.5 MB.
-Total: 3.418100 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.294800 ms MarkObjects: 2.731100 ms  DeleteObjects: 0.100600 ms)
-
->>>>>>> Team2
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -2059,7 +1951,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-<<<<<<< HEAD
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ethan\Desktop\CLUBPROJECT\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -2917,239 +2808,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-=======
-Received Import Request.
-  Time since last request: 1453.452253 seconds.
-  path: Assets/Robot1F_Workshop_3D/Animation/Idle_1.anim
-  artifactKey: Guid(d2931aeb2408cd041b61d407cd181a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Animation/Idle_1.anim using Guid(d2931aeb2408cd041b61d407cd181a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d0fa6e16fc3aa26c68de940df862d6') in 0.012499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.002780 seconds.
-  path: Assets/Robot1F_Workshop_3D/Models
-  artifactKey: Guid(af30ad50bca5f8d47bf21a9d5f52c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Models using Guid(af30ad50bca5f8d47bf21a9d5f52c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4338658c2e17f63ecd7b763c855c24') in 0.000469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.008895 seconds.
-  path: Assets/Robot1F_Workshop_3D/Models/Robot1.fbx
-  artifactKey: Guid(4835a6657e57ded45b7a7fe2c2d62822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Models/Robot1.fbx using Guid(4835a6657e57ded45b7a7fe2c2d62822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62e718d0e9bad4088854f527d4a9fd0') in 0.476427 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 124
-========================================================================
-Received Import Request.
-  Time since last request: 0.002658 seconds.
-  path: Assets/Robot1F_Workshop_3D/Textures
-  artifactKey: Guid(827b41facdcc2e34d94627f0b9674837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Textures using Guid(827b41facdcc2e34d94627f0b9674837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742c1319b48c8b7f52a59aca12325eff') in 0.000606 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.003280 seconds.
-  path: Assets/Robot1F_Workshop_3D/Materials
-  artifactKey: Guid(bef58efbdf9763d4d8b3e1aecb8a5492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Materials using Guid(bef58efbdf9763d4d8b3e1aecb8a5492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65410b6413d63cb6d306d3effda222a') in 0.000622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.004691 seconds.
-  path: Assets/Robot1F_Workshop_3D/Animation/Attack_Arm_1.anim
-  artifactKey: Guid(5f78c527d03836a439820eed9b697fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Animation/Attack_Arm_1.anim using Guid(5f78c527d03836a439820eed9b697fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667c1a24eba8f4eff244255a6226036d') in 0.009262 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.004086 seconds.
-  path: Assets/Robot1F_Workshop_3D/Animation/Robot1 Animator Controller.controller
-  artifactKey: Guid(6a3c707cecab1a349b358e52ef7e30c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Animation/Robot1 Animator Controller.controller using Guid(6a3c707cecab1a349b358e52ef7e30c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226e04a725681bbb9cb081c53ce268b0') in 0.007752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.003127 seconds.
-  path: Assets/Robot1F_Workshop_3D/Scene
-  artifactKey: Guid(21b22732671fb2d48af3974052b9b413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Scene using Guid(21b22732671fb2d48af3974052b9b413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2e8a0fb1fa2a786ea5c16198f30ffc') in 0.000585 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.002810 seconds.
-  path: Assets/Robot1F_Workshop_3D/Animation
-  artifactKey: Guid(97e3c6509840de8448fdbc487666d2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Animation using Guid(97e3c6509840de8448fdbc487666d2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d149bc1db3cb126163a949163062024') in 0.000667 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.004301 seconds.
-  path: Assets/mixamo.com.anim
-  artifactKey: Guid(1ee94441823e247bb8ddf292ace02cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mixamo.com.anim using Guid(1ee94441823e247bb8ddf292ace02cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8705faf3da19d53b2545a7da7810c7e5') in 0.006660 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.004292 seconds.
-  path: Assets/Robot1F_Workshop_3D/Animation/Run_IP.anim
-  artifactKey: Guid(45dff946275da1b4a8d5b6672d533d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Animation/Run_IP.anim using Guid(45dff946275da1b4a8d5b6672d533d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d840d76d297ebca089857b61165c960') in 0.005408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.004479 seconds.
-  path: Assets/Robot1F_Workshop_3D/Animation/Walk_IP.anim
-  artifactKey: Guid(36f3b9be63cdc344d8041e83693a4254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Animation/Walk_IP.anim using Guid(36f3b9be63cdc344d8041e83693a4254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee923031cacf023e31905a7c6ab86db') in 0.005454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.004666 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1487f97a986b0e8deb291caea30d192') in 0.000665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.007870 seconds.
-  path: Assets/Robot1F_Workshop_3D/Materials/Robot1_DefaultMaterial_AlbedoTransparency.mat
-  artifactKey: Guid(eac569fffc8708e45bfc4d3eb33a7055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Materials/Robot1_DefaultMaterial_AlbedoTransparency.mat using Guid(eac569fffc8708e45bfc4d3eb33a7055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad01e41c034b616f20131cd575f74d4b') in 0.513169 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(a00b3c9a5776344929786f03fd84dbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(a00b3c9a5776344929786f03fd84dbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50d093863922302ad59552c2785f32b') in 0.001049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.014730 seconds.
-  path: Assets/Robot1F_Workshop_3D/Textures/Robot1_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(d7c1ed0886efc844da0b5f371db0888d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Textures/Robot1_DefaultMaterial_AlbedoTransparency.png using Guid(d7c1ed0886efc844da0b5f371db0888d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7a81e2577485677b33fa89bf8d62d1') in 0.054533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.003113 seconds.
-  path: Assets/Robot1F_Workshop_3D/Scene/Robot1_Demo.unity
-  artifactKey: Guid(852e06ca35f44bc489bdca2f081678fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Scene/Robot1_Demo.unity using Guid(852e06ca35f44bc489bdca2f081678fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cd10bdc633813a3bf9ff33e1d31afe') in 0.000784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.008465 seconds.
-  path: Assets/Robot1F_Workshop_3D/Scene/Robot1_DemoSettings.lighting
-  artifactKey: Guid(48f6ca06b6a594c9490329ee7b4fe09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Scene/Robot1_DemoSettings.lighting using Guid(48f6ca06b6a594c9490329ee7b4fe09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'dbcc72f21adc07832833977adcc93edc') in 0.001355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.004755 seconds.
-  path: Assets/Test.cs
-  artifactKey: Guid(7a07e2380b7a16045802483e693c4b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Test.cs using Guid(7a07e2380b7a16045802483e693c4b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26922ce5cf323916dde67c689ff4f696') in 0.000544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.004699 seconds.
-  path: Assets/Robot1F_Workshop_3D/Animation/Idle_3.anim
-  artifactKey: Guid(021a12d78695e7a4783d2e0e123d380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Animation/Idle_3.anim using Guid(021a12d78695e7a4783d2e0e123d380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50628e6e9b4ec91a3fb4c58a99c66d95') in 0.006723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.003210 seconds.
-  path: Assets/Robot1F_Workshop_3D
-  artifactKey: Guid(39cec0fcdfa8245a1ba6225371c9e1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D using Guid(39cec0fcdfa8245a1ba6225371c9e1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042ff42f40df8e5ee021a4029ae43ea5') in 0.000511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.003400 seconds.
-  path: Assets/Robot1F_Workshop_3D/Prefabs
-  artifactKey: Guid(7a446a23e042dea43880a15fe9ef7479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Prefabs using Guid(7a446a23e042dea43880a15fe9ef7479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9894873835ff9fb713bae24ac76d1a18') in 0.000461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.004514 seconds.
-  path: Assets/Robot1F_Workshop_3D/Animation/Idle_Crazy_Robot.anim
-  artifactKey: Guid(052e742626ca29446ac38e0cc935b5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Animation/Idle_Crazy_Robot.anim using Guid(052e742626ca29446ac38e0cc935b5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80472cf58cee35c303b9852aa70a2d96') in 0.011241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.004899 seconds.
-  path: Assets/Robot1F_Workshop_3D/Prefabs/Robot1.prefab
-  artifactKey: Guid(bdd91695cfcf4b643963af1fce587ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Prefabs/Robot1.prefab using Guid(bdd91695cfcf4b643963af1fce587ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91c257ef67b90f7aaab4adf353a21f6') in 0.101862 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 132
-========================================================================
-Received Import Request.
-  Time since last request: 0.014202 seconds.
-  path: Assets/Robot1F_Workshop_3D/Textures/Robot1_DefaultMaterial_MetallicSmoothness.png
-  artifactKey: Guid(c7a523d2dd2ced74b94e744d846a7afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Textures/Robot1_DefaultMaterial_MetallicSmoothness.png using Guid(c7a523d2dd2ced74b94e744d846a7afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ccc216305d3bce457765bda65c712c') in 0.027137 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.004580 seconds.
-  path: Assets/Robot1F_Workshop_3D/Animation/Idle_2.anim
-  artifactKey: Guid(7278eee3673bf214c8df652e63b27ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Animation/Idle_2.anim using Guid(7278eee3673bf214c8df652e63b27ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96e94ded8f1e0f337a77c313d3e5af9') in 0.005253 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.006429 seconds.
-  path: Assets/Robot1F_Workshop_3D/Textures/panorama_1.hdr
-  artifactKey: Guid(5744e1b042b689a4baf1c9b313b2884a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Textures/panorama_1.hdr using Guid(5744e1b042b689a4baf1c9b313b2884a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadf7678acdde8ed8d373c25e437ad6d') in 0.079701 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.008132 seconds.
-  path: Assets/Robot1F_Workshop_3D/Textures/Robot1_DefaultMaterial_Normal.png
-  artifactKey: Guid(feafed4e7fcb87f4a866de6f00e909cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot1F_Workshop_3D/Textures/Robot1_DefaultMaterial_Normal.png using Guid(feafed4e7fcb87f4a866de6f00e909cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a2f35a538d6cbde4c8340aaa15148e') in 0.034283 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
->>>>>>> Team2
