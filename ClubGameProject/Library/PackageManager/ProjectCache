@@ -6,7 +6,11 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       ticks: 638420172620000000
+=======
+      ticks: 638430555180000000
+>>>>>>> TeamMergeBranch
     m_Hash: 558938034
 =======
       ticks: 638412159709927150
@@ -19,7 +23,11 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       ticks: 638420172620000000
+=======
+      ticks: 638430555180000000
+>>>>>>> TeamMergeBranch
     m_Hash: 899898893
 =======
       ticks: 638412159710140511
@@ -688,6 +696,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.5
     - 3.2.0-pre.6
     - 3.2.0-pre.7
+    - 3.2.0-pre.8
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -700,6 +709,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.5
     - 3.2.0-pre.6
     - 3.2.0-pre.7
+    - 3.2.0-pre.8
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.7

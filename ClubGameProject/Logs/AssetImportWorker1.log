@@ -1,27 +1,21 @@
-Unity Editor version:    2022.3.2f1 (d74737c6db50)
-Branch:                  2022.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 14.2.1 (Build 23C71)
-Darwin version:          23.2.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: YES
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2022.3.2f1/Unity.app/Contents/MacOS/Unity
+E:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-/Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject
+C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 <<<<<<< HEAD
 59180
 Successfully changed project path to: /Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject
@@ -31,6 +25,11 @@ Successfully changed project path to: /Users/comicmaster/Comp-Sci Folder/ClubGam
 Successfully changed project path to: C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
 C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
 >>>>>>> Team2
+=======
+62600
+Successfully changed project path to: C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
+C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
+>>>>>>> TeamMergeBranch
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -63,10 +62,15 @@ C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 Player connection [7932235776] Host "[IP] 10.0.0.226 [Port] 0 [Flags] 2 [Guid] 1587844642 [EditorId] 1587844642 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-30.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+=======
+Player connection [57548] Host "[IP] 192.168.68.63 [Port] 0 [Flags] 2 [Guid] 3732439856 [EditorId] 3732439856 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHGTC4I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+>>>>>>> TeamMergeBranch
 
-Player connection [7932235776] Host "[IP] 10.0.0.226 [Port] 0 [Flags] 2 [Guid] 1587844642 [EditorId] 1587844642 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-30.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [57548] Host "[IP] 192.168.68.63 [Port] 0 [Flags] 2 [Guid] 3732439856 [EditorId] 3732439856 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHGTC4I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 17.77 ms, found 2 plugins.
 =======
 Player connection [57548] Host "[IP] 192.168.68.63 [Port] 0 [Flags] 2 [Guid] 3732439856 [EditorId] 3732439856 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHGTC4I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
@@ -75,17 +79,22 @@ Player connection [57548] Host "[IP] 192.168.68.63 [Port] 0 [Flags] 2 [Guid] 373
 
 Refreshing native plugins compatible for Editor in 19.99 ms, found 3 plugins.
 >>>>>>> Team2
+=======
+Refreshing native plugins compatible for Editor in 19.99 ms, found 3 plugins.
+>>>>>>> TeamMergeBranch
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.2f1 (d74737c6db50)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject/Assets
+[Subsystems] Discovering subsystems at path E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rafae/Documents/GitHub/Club Game (Raf)/ClubGame/ClubGameProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 Pro (high power)
-Metal devices available: 1
-0: Apple M1 Pro (high power)
-Using device Apple M1 Pro (high power)
-Initializing Metal device caps: Apple M1 Pro
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2979 MB
+    Driver:   31.0.15.3770
 Initialize mono
+<<<<<<< HEAD
 <<<<<<< HEAD
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.2f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
@@ -112,14 +121,20 @@ Register platform support module: E:/Program Files/Unity/Hub/Editor/2022.3.2f1/E
 Registered in 0.011184 seconds.
 - Loaded All Assemblies, in  0.792 seconds
 >>>>>>> Team2
+=======
+Mono path[0] = 'E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011184 seconds.
+- Loaded All Assemblies, in  0.792 seconds
+>>>>>>> TeamMergeBranch
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Finished resetting the current domain, in  0.272 seconds
 Domain Reload Profiling: 550ms
@@ -129,32 +144,46 @@ Domain Reload Profiling: 550ms
 Domain Reload Profiling: 1288ms
 	BeginReloadAssembly (239ms)
 >>>>>>> Team2
+=======
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 1288ms
+	BeginReloadAssembly (239ms)
+>>>>>>> TeamMergeBranch
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
 	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (41ms)
 	LoadAllAssembliesAndSetupDomain (116ms)
 		LoadAssemblies (82ms)
+=======
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (133ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (238ms)
+>>>>>>> TeamMergeBranch
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (113ms)
-			TypeCache.Refresh (112ms)
-				TypeCache.ScanAssembly (103ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (272ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (277ms)
+				TypeCache.ScanAssembly (240ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (497ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (224ms)
+		SetupLoadedEditorAssemblies (386ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (92ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
+<<<<<<< HEAD
 			ProcessInitializeOnLoadAttributes (91ms)
 			ProcessInitializeOnLoadMethodAttributes (33ms)
 =======
@@ -181,6 +210,10 @@ Domain Reload Profiling: 1288ms
 			ProcessInitializeOnLoadAttributes (263ms)
 			ProcessInitializeOnLoadMethodAttributes (94ms)
 >>>>>>> Team2
+=======
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+>>>>>>> TeamMergeBranch
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -189,12 +222,15 @@ Domain Reload Profiling: 1288ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 <<<<<<< HEAD
+<<<<<<< HEAD
 Symbol file LoadedFromMemory doesn't match image /Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  0.606 seconds
 Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Native extension for LinuxStandalone target not found
 =======
+=======
+>>>>>>> TeamMergeBranch
 Symbol file data-00000167DE9EBE30 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file data-00000167DEF891E0 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
@@ -253,55 +289,61 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub
 Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  1.137 seconds
 Refreshing native plugins compatible for Editor in 6.52 ms, found 3 plugins.
+<<<<<<< HEAD
 >>>>>>> Team2
+=======
+>>>>>>> TeamMergeBranch
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.541 seconds
 Domain Reload Profiling: 1148ms
 	BeginReloadAssembly (94ms)
+=======
+- Finished resetting the current domain, in  0.757 seconds
+Domain Reload Profiling: 1891ms
+	BeginReloadAssembly (247ms)
+>>>>>>> TeamMergeBranch
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (445ms)
-		LoadAssemblies (221ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (782ms)
+		LoadAssemblies (457ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (245ms)
-				TypeCache.ScanAssembly (233ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (541ms)
+		AnalyzeDomain (443ms)
+			TypeCache.Refresh (416ms)
+				TypeCache.ScanAssembly (393ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (758ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (415ms)
+		SetupLoadedEditorAssemblies (563ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (315ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Launching external process: /Applications/Unity/Hub/Editor/2022.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 9.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< HEAD
 Unloading 3618 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 51 unused Assets / (134.4 KB). Loaded Objects now: 4096.
 Memory consumption went from 146.9 MB to 146.7 MB.
@@ -344,42 +386,108 @@ Domain Reload Profiling: 1891ms
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
 Refreshing native plugins compatible for Editor in 9.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+=======
+>>>>>>> TeamMergeBranch
 Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 38 unused Assets / (57.2 KB). Loaded Objects now: 3931.
 Memory consumption went from 132.5 MB to 132.4 MB.
 Total: 4.811200 ms (FindLiveObjects: 0.304800 ms CreateObjectMapping: 0.598700 ms MarkObjects: 3.765000 ms  DeleteObjects: 0.141700 ms)
+<<<<<<< HEAD
 >>>>>>> Team2
+=======
+>>>>>>> TeamMergeBranch
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
 <<<<<<< HEAD
+<<<<<<< HEAD
   Time since last request: 771812.901605 seconds.
   path: Assets/Player_Idle_Anim.fbx
   artifactKey: Guid(d4733fba5112e4e5aa78cb3975c2c21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Player_Idle_Anim.fbx using Guid(d4733fba5112e4e5aa78cb3975c2c21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3200e63524d629b7890d81c35f0b331a') in 0.020625 seconds
+=======
+  Time since last request: 526042.321892 seconds.
+  path: Assets/PlayerMovement.inputactions
+  artifactKey: Guid(37eb18e63842bb84085cfafc1481f047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMovement.inputactions using Guid(37eb18e63842bb84085cfafc1481f047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697892186608cbea72c7d032cf666016') in 0.023756 seconds
+>>>>>>> TeamMergeBranch
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 137
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x2add87000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.551 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
+Symbol file data-00000167DDB9A010 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EAEEF020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E9CD0640 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EAEEF020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EAEEF020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DEF70050 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DDC3EC30 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DD7E5EA0 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E087A060 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DD390240 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DEC94040 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E0AD6020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DFF24020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DFF24020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DFF24020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DFF24020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E8C60030 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E8C60030 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DD68BC60 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DFF24020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DDE40010 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DFF24020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DEF85260 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DEF85260 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DF116410 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E87B2030 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DF116410 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.858 seconds
+Refreshing native plugins compatible for Editor in 8.01 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -453,117 +561,56 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub
 Refreshing native plugins compatible for Editor in 8.01 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 >>>>>>> Team2
+=======
+>>>>>>> TeamMergeBranch
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.794 seconds
 Domain Reload Profiling: 1346ms
 	BeginReloadAssembly (103ms)
+=======
+- Finished resetting the current domain, in  1.292 seconds
+Domain Reload Profiling: 2147ms
+	BeginReloadAssembly (184ms)
+>>>>>>> TeamMergeBranch
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (389ms)
-		LoadAssemblies (184ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (354ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (238ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (222ms)
+		AnalyzeDomain (342ms)
+			TypeCache.Refresh (336ms)
+				TypeCache.ScanAssembly (324ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (794ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1292ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (383ms)
+		SetupLoadedEditorAssemblies (533ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (273ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3608 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (112.3 KB). Loaded Objects now: 4111.
-Memory consumption went from 153.8 MB to 153.7 MB.
-Total: 2.791375 ms (FindLiveObjects: 0.134417 ms CreateObjectMapping: 0.052625 ms MarkObjects: 2.549458 ms  DeleteObjects: 0.054458 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x2a0487000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.520 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.794 seconds
-Domain Reload Profiling: 1315ms
-	BeginReloadAssembly (98ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (367ms)
-		LoadAssemblies (165ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (228ms)
-				TypeCache.ScanAssembly (220ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (794ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (394ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (284ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (411ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 6.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< HEAD
 Unloading 3609 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (112.0 KB). Loaded Objects now: 4126.
 Memory consumption went from 162.5 MB to 162.4 MB.
@@ -605,20 +652,31 @@ Domain Reload Profiling: 2147ms
 		AwakeInstancesAfterBackupRestoration (12ms)
 Refreshing native plugins compatible for Editor in 6.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+=======
+>>>>>>> TeamMergeBranch
 Unloading 3444 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3935.
 Memory consumption went from 131.2 MB to 131.1 MB.
 Total: 2.844500 ms (FindLiveObjects: 0.243300 ms CreateObjectMapping: 0.231800 ms MarkObjects: 2.327900 ms  DeleteObjects: 0.040800 ms)
+<<<<<<< HEAD
 >>>>>>> Team2
+=======
+>>>>>>> TeamMergeBranch
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+>>>>>>> TeamMergeBranch
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+<<<<<<< HEAD
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
 =======
@@ -630,20 +688,119 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
 >>>>>>> Team2
+=======
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+>>>>>>> TeamMergeBranch
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Received Import Request.
+  Time since last request: 288.645135 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx
+  artifactKey: Guid(067cc188e25b78b4a940a9fa67cd6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx using Guid(067cc188e25b78b4a940a9fa67cd6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f9f621f427237615e99ccbaeff5465') in 0.038508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx
+  artifactKey: Guid(99f1663f1bb6db14f8530a4d568e0d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx using Guid(99f1663f1bb6db14f8530a4d568e0d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04a6d8928fed3f5fd79ee89c65dd65f') in 0.010928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 138
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Strafe01 [RM].fbx
+  artifactKey: Guid(1e601dfd69e35d646bb97438c4dbeab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Strafe01 [RM].fbx using Guid(1e601dfd69e35d646bb97438c4dbeab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb87f90f973d6fde16c5a2e97b682726') in 0.006414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01 [RM].fbx
+  artifactKey: Guid(70f4d001d44ad2b44be58423b7b13fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01 [RM].fbx using Guid(70f4d001d44ad2b44be58423b7b13fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb7d2a07ca4a4d068fafd203d484840') in 0.007214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Strafe01.fbx
+  artifactKey: Guid(965e8fa8f0644d741bc9baca0a3954fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Strafe01.fbx using Guid(965e8fa8f0644d741bc9baca0a3954fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0411822d69faac52c7f4d2e247220f0f') in 0.008026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+>>>>>>> TeamMergeBranch
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x2a0487000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/comicmaster/Comp-Sci Folder/ClubGame/ClubGameProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.524 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
+Symbol file data-00000167B9C60FA0 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E9FBA020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B9C25570 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E9FBA020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E9FBA020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DEF70050 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E0790010 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EAAFB7D0 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DDFBA020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EA7A9E40 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DEC94040 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E0AD6020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EAAFB7D0 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EAAFB7D0 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EAAFB7D0 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167B9C46780 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EAB057F0 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EB005030 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EAB8F010 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DEC94040 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167E9FDF9A0 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DFF38370 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EAEF1220 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EAEF1220 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167EA1FC030 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DDFBA020 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000167DEF70050 doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub\Club Game (Raf)\ClubGame\ClubGameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.910 seconds
+Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -750,47 +907,56 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\rafae\Documents\GitHub
 Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 >>>>>>> Team2
+=======
+>>>>>>> TeamMergeBranch
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.811 seconds
 Domain Reload Profiling: 1336ms
 	BeginReloadAssembly (98ms)
+=======
+- Finished resetting the current domain, in  1.209 seconds
+Domain Reload Profiling: 2115ms
+	BeginReloadAssembly (188ms)
+>>>>>>> TeamMergeBranch
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (372ms)
-		LoadAssemblies (171ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (633ms)
+		LoadAssemblies (372ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (226ms)
-				TypeCache.ScanAssembly (219ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (360ms)
+				TypeCache.ScanAssembly (347ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (811ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1209ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (387ms)
+		SetupLoadedEditorAssemblies (474ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (283ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< HEAD
 Unloading 3609 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (112.0 KB). Loaded Objects now: 4141.
 Memory consumption went from 171.0 MB to 170.9 MB.
@@ -832,20 +998,31 @@ Domain Reload Profiling: 2115ms
 		AwakeInstancesAfterBackupRestoration (12ms)
 Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+=======
+>>>>>>> TeamMergeBranch
 Unloading 3444 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3938.
 Memory consumption went from 131.2 MB to 131.2 MB.
 Total: 3.716500 ms (FindLiveObjects: 0.567900 ms CreateObjectMapping: 0.522500 ms MarkObjects: 2.582500 ms  DeleteObjects: 0.042400 ms)
+<<<<<<< HEAD
 >>>>>>> Team2
+=======
+>>>>>>> TeamMergeBranch
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+>>>>>>> TeamMergeBranch
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+<<<<<<< HEAD
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
 =======
@@ -855,6 +1032,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+=======
+>>>>>>> TeamMergeBranch
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -5176,7 +5355,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+<<<<<<< HEAD
 >>>>>>> Team2
+=======
+>>>>>>> TeamMergeBranch
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
