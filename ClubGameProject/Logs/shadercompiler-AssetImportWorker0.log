@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Base path: 'E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data', plugins path 'E:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
@@ -13,3 +14,11 @@ Unhandled exception: Protocol error - failed to read magic number (error -214748
 
 Quitting shader compiler process
 >>>>>>> TeamMergeBranch
+=======
+Base path: 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
+
+Quitting shader compiler process
+>>>>>>> ed91b4eb457137ebaae773e6be3e5511a5898d9b
